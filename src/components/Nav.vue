@@ -1,23 +1,39 @@
 <template>
-  <nav class="text-center space-x-4">
-    <router-link to="/gallery">Galerii</router-link>
-    <router-link to="/cfg">CFG</router-link>
-    <router-link to="/viewmodel">Viewmodel</router-link>
-    <router-link to="/crosshairs">Crosshairid</router-link>
-    <router-link to="/video">Video sätted</router-link>
+  <nav class="flex justify-center gap-6 py-4 bg-neutral-900 text-white">
+    <router-link
+      to="/gallery"
+      class="hover:text-pink-400 transition"
+      active-class="text-green-400 font-bold"
+    >Galerii</router-link>
+
+    <router-link
+      to="/cfg"
+      class="hover:text-pink-400 transition"
+      active-class="text-green-400 font-bold"
+    >CFG</router-link>
+
+    <router-link
+      to="/viewmodel"
+      class="hover:text-pink-400 transition"
+      active-class="text-green-400 font-bold"
+    >Viewmodel</router-link>
+
+    <router-link
+      to="/crosshairs"
+      class="hover:text-pink-400 transition"
+      active-class="text-green-400 font-bold"
+    >Crosshairid</router-link>
+
+    <router-link
+      to="/video"
+      class="hover:text-pink-400 transition"
+      active-class="text-green-400 font-bold"
+    >Video sätted</router-link>
   </nav>
 </template>
 
 <script>
 export default {
-  name: 'Nav'
+  name: 'Nav',
 }
 </script>
-
-<style scoped>
-/* Add styles if needed, e.g., for the active link */
-.router-link-exact-active {
-  color: #42b983; /* Example active color */
-  font-weight: bold;
-}
-</style>

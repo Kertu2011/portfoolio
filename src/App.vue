@@ -1,5 +1,5 @@
 <template>
-  <div class="main-content">
+  <div class="bg-neutral-900 text-white font-sans antialiased min-h-screen">
     <Header />
     <Nav />
     <ProfileImage />
