@@ -1,10 +1,9 @@
 <template>
   <div class="bg-neutral-900 text-white font-sans antialiased min-h-screen">
-    <Header />
     <Nav />
-    <ProfileImage />
+    <router-view />
+    <Hero />
     <MainSection />
-    <CFG />
     <Gallery />
     <Links />
     <Footer />
@@ -12,12 +11,10 @@
 </template>
 
 <script setup>
-import Header from './components/Header.vue'
+import Hero from './components/Hero.vue'
 import Nav from './components/Nav.vue'
-import ProfileImage from './components/ProfileImage.vue'
 import MainSection from './components/MainSection.vue'
-import CFG from './components/CFG.vue'
-import Gallery from './components/GalleryPage.vue'
+import Gallery from './views/GalleryView.vue'
 import Links from './components/LinksPage.vue'
 import Footer from './components/Footer.vue'
 </script>

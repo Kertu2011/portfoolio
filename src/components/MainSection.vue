@@ -14,6 +14,13 @@
       LUMEDAS IS ONE OF THE BRIGHTEST AND MOST TALENTED PLAYERS IN THE LONG HISTORY OF COUNTER-STRIKE: GLOBAL OFFENSIVE. A CLUTCH MASTER WHO ALONE CAN TURN THE TIDE OF THE GAME.
     </p>
 
+    <router-link
+  to="/config"
+  class="px-4 py-2 bg-green-500 text-black rounded hover:bg-green-400 transition"
+>
+  My Config
+  </router-link>
+
     <h2 class="mt-6 text-xl font-semibold text-left text-limegreen">Peripherals</h2>
     <ul class="max-w-6xl mx-auto p-8 pl-6 text-left text-gray-300">
       <li><strong>Monitor:</strong> ZOWIE XL2546K</li>

@@ -1,23 +1,35 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import AboutView from '../views/AboutView.vue'
+import GalleryView from '../views/GalleryView.vue'
+import ConfigView from '../views/ConfigView.vue'
+
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
   },
   {
     path: '/about',
     name: 'about',
-    // Lazy-loaded component
-    component: () => import('../views/AboutView.vue')
-  }
+    component: AboutView, // lazy-loadi võib jätta ka, kui soovid
+  },
+    { 
+    path: '/gallery',
+    name: 'gallery',
+    component: GalleryView,
+  },
+  { path: '/config',
+    name: 'config',
+    component: ConfigView,
+  },
 ]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes,
 })
 
 export default router
