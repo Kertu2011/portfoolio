@@ -7,13 +7,13 @@
      >Galerii</router-link>
 
      <router-link
-     to="/header" 
+     to="/" 
      class="hover:text-pink-400 transition" 
      active-class="text-green-400 font-bold"
      >Avaleht</router-link> 
 
      <router-link
-     to="/" 
+     to="/config" 
      class="hover:text-pink-400 transition" 
      active-class="text-green-400 font-bold"
      >Peripherals</router-link> 
