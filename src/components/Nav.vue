@@ -1,16 +1,16 @@
 <template>
   <nav class="sticky-nav flex justify-center gap-6 py-4 bg-neutral-900 text-white">
     <router-link
-     to="/gallery" 
-     class="hover:text-pink-400 transition" 
-     active-class="text-green-400 font-bold"
-     >Galerii</router-link>
-
-     <router-link
      to="/" 
      class="hover:text-pink-400 transition" 
      active-class="text-green-400 font-bold"
      >Avaleht</router-link> 
+
+    <router-link
+     to="/gallery" 
+     class="hover:text-pink-400 transition" 
+     active-class="text-green-400 font-bold"
+     >Galerii</router-link>
 
      <router-link
      to="/config" 
